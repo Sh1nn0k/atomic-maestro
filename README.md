@@ -1,5 +1,15 @@
 # Atomic Maestro
 
+```text
+    ___   __                  _          __  ___                 __           
+   /   | / /_____  ____ ___  (_)____    /  |/  /____  ___  _____/ /__________ 
+  / /| |/ __/ __ \/ __ `__ \/ / ___/   / /|_/ / __ `/ _ \/ ___/ __/ ___/ __ \
+ / ___ / /_/ /_/ / / / / / / / /__    / /  / / /_/ /  __(__  ) /_/ /  / /_/ /
+/_/  |_\__/\____/_/ /_/ /_/_/\___/   /_/  /_/\__,_/\___/____/\__/_/   \____/ 
+                                                                             
+[ Automated MITRE ATT&CK® Navigator Emulation Plan Generator for Red Canary's Atomic Red Team ]
+```
+
 ## Overview
 **Atomic Maestro** is a streamlined CLI tool designed to bridge the automation gap between Cyber Threat Intelligence (CTI) and Red Canary's Atomic Red Team Atomic Runner functionality. 
 
