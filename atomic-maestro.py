@@ -53,7 +53,7 @@ with open(args.destination_filepath, 'w', encoding='UTF-8', newline='') as file:
     for technique in enabled_techniques:
         for atomic_test in technique_map.get(technique['techniqueID'], []):
             if args.supported_platforms:
-                atomic_test_supported_platforms = set(atomic_test['supported_platforms'].strip().lower.split('|'))
+                atomic_test_supported_platforms = set(atomic_test['supported_platforms'].strip().lower().split('|'))
                 prepared_args = {arg.strip().lower() for arg in args.supported_platforms}
                 if atomic_test_supported_platforms.isdisjoint(prepared_args):
                     continue
